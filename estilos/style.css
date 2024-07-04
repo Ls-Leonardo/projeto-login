@@ -39,6 +39,12 @@ section#login{
     border-radius: 20px;
     overflow: hidden; /* os cantos continuam arredondados usando essa opção */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+
+    /* animação bem legal que ocorre quando a L e A aumentam/ diminuem */
+    transition: width 0.3s, height 0.3s;
+
+    /* para deixar mais suave */
+    transition-timing-function: ease;
     
 }
 
