@@ -35,7 +35,7 @@ section#login{
 
     background-color: white;
     width: 350px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden; /* os cantos continuam arredondados usando essa opção */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
@@ -70,3 +70,62 @@ div#formulario > p{
     font-size: 0.8em;
     
 }
+
+form > div.campo{
+    background-color: rgba(96, 44, 130, 0.788);
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0px;
+    
+    
+}
+
+div.campo > label{
+    display: none;
+}
+
+
+
+
+
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 3px;
+}
+
+form > input[type=submit]:hover{
+    background-color: #2c5e5c;
+    cursor: pointer;
+}
+
+form > a.botao{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: #2c5e5c;
+    border: 1px solid #49a09d ;
+    text-decoration: none;
+}
+
+
+form > a.botao:hover{
+    background-color: #68ddd9;
+}
+
+form > a.botao > span{
+    font-size: 0.8em; /* por mais que seja um botão e não um txt, funciona */
+}
+
